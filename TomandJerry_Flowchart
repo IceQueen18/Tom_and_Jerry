@@ -1,3 +1,4 @@
+// [MermaidChart: 6c1f677d-3cdd-465d-ad93-187b5b8323ef]
 flowchart TD
     Start["Start Game: Jerry's Quest for the Cheese" ] --> DisplayInfo["Navigate the house to get to the Fridge and get cheese. Beware of Tom and mouse traps but the Dog will help you."]
     DisplayInfo --> JerryTurn["Jerry's Turn" ]
