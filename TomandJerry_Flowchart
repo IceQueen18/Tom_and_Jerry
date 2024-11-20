@@ -2,7 +2,7 @@
 flowchart TD
     Start["Start Game: Jerry's Quest for the Cheese" ] --> DisplayInfo["Navigate the house to get to the Fridge and get cheese. Beware of Tom and mouse traps but the Dog will help you."]
     DisplayInfo --> JerryTurn["Jerry's Turn" ]
-    JerryTurn --> DisplayDoors["Display Three Doors"]
+    JerryTurn --> DisplayDoors["Display random doors"]
     DisplayDoors --> ChooseDoor["Jerry Chooses a Door"]
     ChooseDoor --> CheckOutcome["The corridor leads to&nbsp; [random room]."]
     CheckOutcome --> Checkoutcome["You can hear Tom purring"]
